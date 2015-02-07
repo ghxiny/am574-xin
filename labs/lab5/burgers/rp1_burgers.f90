@@ -25,7 +25,7 @@ subroutine rp1(maxmx,meqn,mwaves,maux,mbc,mx,ql,qr,auxl,auxr,wave,s,amdq,apdq)
     integer :: i
     logical :: efix
  
-    efix = .true.   !# Compute correct flux for transonic rarefactions
+    efix = .false.   !# Compute correct flux for transonic rarefactions
  
 
     do i=2-mbc,mx+mbc

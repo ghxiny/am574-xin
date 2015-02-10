@@ -18,9 +18,8 @@ c
          xcell = xlower + (i-0.5d0)*dx
          q(1,i) = exp(-beta * (xcell-0.3d0)**2)
          if (xcell.gt.0.8d0 .and. xcell.lt.1.2d0) then
-             q(1,i) = q(1,i) + 1.d0              
+             q(1,i) = q(1,i) + 1.d0
              endif
-         q(1,i) = q(1,i) - 0.3d0
   150    continue
 c
       return

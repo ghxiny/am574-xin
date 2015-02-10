@@ -106,7 +106,7 @@ def setrun(claw_pkg='classic'):
         # Output ntimes frames at equally spaced times up to tfinal:
         # Can specify num_output_times = 0 for no output
         clawdata.num_output_times = 20
-        clawdata.tfinal = 3.000000
+        clawdata.tfinal = 2.000000
         clawdata.output_t0 = True  # output at initial (or restart) time?
         
     elif clawdata.output_style == 2:
@@ -182,7 +182,7 @@ def setrun(claw_pkg='classic'):
     #   2 or 'superbee' ==> superbee
     #   3 or 'vanleer'  ==> van Leer
     #   4 or 'mc'       ==> MC limiter
-    clawdata.limiter = [0] #['minmod']
+    clawdata.limiter = ['minmod']
     
     clawdata.use_fwaves = False    # True ==> use f-wave version of algorithms
     

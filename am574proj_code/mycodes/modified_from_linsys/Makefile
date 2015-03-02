@@ -37,7 +37,7 @@ SOURCES = \
   qinit.f90 \
   setprob.f90 \
   rp1_nlelastic.f90 \
-  setaux.f90 \
+  setaux_layered.f90 \
   bc1.f \
   $(CLAW)/classic/src/1d/b4step1.f90 \
   $(CLAW)/classic/src/1d/driver.f90 \

@@ -42,7 +42,7 @@ c      stop
           q(1,1-ibc) = q(1,1)
           if (t.lt.20d0) then
 c            write(*,*) aux(1,1-ibc)
-            q(2,1-ibc) = -2d0 /10d0 *(1+cos(3.14156265/10d0*(t-10)))
+            q(2,1-ibc) = -1d0 /10d0 *(1+cos(3.14156265/10d0*(t-10)))
             q(2,1-ibc) = q(2,1-ibc) * aux(1,1-ibc)	
           else
             q(2,1-ibc) = 0

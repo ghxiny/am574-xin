@@ -1,0 +1,8 @@
+Does not seem to work, command 
+
+python stegoton.py
+
+tried.
+
+said some functions undefined and needed to be installed
+might be the problem of different versions of clawpack 
